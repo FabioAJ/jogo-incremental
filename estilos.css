@@ -14,6 +14,21 @@ h2 {
   font-size: 50px;
 }
 
+#esquerda{
+    float: left;
+    padding-top: 24%;
+}
+
+#centro{
+    padding-left: 190px;
+    padding-top: 20%;
+}
+
+#direita{
+    float: right;
+    padding-top: 23%;
+}
+
 .column.side {
     width: 25%;
 }
