@@ -34,31 +34,9 @@ function melhoria1(){
     document.getElementById("demo").innerHTML = "Pontos: " + pontos;
 }
 
-function melhoria2(){
-
-    }
-
-}
-
-function melhoria3(){
-
-    }
-
-}
-
-function verificacao(){
+/*function verificacao(){
     if (pontos >= 20 && melhorias[0] === false){
             melhorias[0] = true;
             setInterval(melhoria1, 20000);
     }
-function verificacao2(){
-    if (pontos >= 20 && melhorias[0] === false){
-            melhorias[0] = true;
-            setInterval(melhoria1, 20000);
-    }
-function verificacao3(){
-    if (pontos >= 20 && melhorias[0] === false){
-            melhorias[0] = true;
-            setInterval(melhoria1, 20000);
-    }
-}
+}*/
