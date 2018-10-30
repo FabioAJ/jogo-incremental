@@ -1,5 +1,7 @@
 var pontos = 0;
-var crono = 0;
+var segundos = 0;
+var minutos = 0;
+var horas = 0;
 var melhorias = [false, false, false];
 
 function aumentoDePontos() {
@@ -12,17 +14,19 @@ function aumentoDePontos() {
 }
 
 function cronometro() {
-    crono += 1;
-    document.getElementById("cronom").innerHTML = "Tempo: " + crono;
-    console.log(crono);
-}
+    segundos += 1;
+    console.log(segundos);
 
-function scrollUpgrades() {
-    window.scrollTo(0, 700);
-}
+    if(segundos >= 60){
+        segundos = 0;
+        minutos += 1;
+    }
 
-function scrollBolaDeLa() {
-    window.scrollTo(0, -700);
+    if (minutos >= 60){
+        minutos = 0;
+        horas += 1;
+    }
+    document.getElementById("cronom").innerHTML = "Tempo:" + horas + "-" + minutos + "-" + segundos;
 }
 
 function melhoria1(){
@@ -31,20 +35,28 @@ function melhoria1(){
 }
 
 function melhoria2(){
-    if (pontos >= 250 && melhorias[1] === false){
 
     }
 
 }
 
 function melhoria3(){
-    if (pontos >= 500 && melhorias[2] === false){
 
     }
 
 }
 
 function verificacao(){
+    if (pontos >= 20 && melhorias[0] === false){
+            melhorias[0] = true;
+            setInterval(melhoria1, 20000);
+    }
+function verificacao2(){
+    if (pontos >= 20 && melhorias[0] === false){
+            melhorias[0] = true;
+            setInterval(melhoria1, 20000);
+    }
+function verificacao3(){
     if (pontos >= 20 && melhorias[0] === false){
             melhorias[0] = true;
             setInterval(melhoria1, 20000);

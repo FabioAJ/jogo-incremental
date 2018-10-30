@@ -14,23 +14,16 @@ h2 {
   font-size: 50px;
 }
 
-#esquerda{
-    float: left;
-    padding-top: 24%;
+#imgBola {
+    margin: auto;
+    height: 300px;
+    width: 350px;
 }
 
-#centro{
-    padding-left: 190px;
-    padding-top: 20%;
-}
-
-#direita{
-    float: right;
-    padding-top: 23%;
-}
-
-.column.side {
-    width: 25%;
+#imgGatos {
+    margin: auto;
+    height: 150px;
+    width: 190px;
 }
 
 .borda {
@@ -38,10 +31,30 @@ h2 {
     border-style: solid;
 }
 
-.rodape {
-margin: auto;
-width: 100%;
-bottom: 0;
-position: fixed;
-background-color: black;
+#telaPrincipal {
+    position: relative;
+    float: left;
+    display: inline;
+    margin-left: 10%;
+    margin-top: 6px;
+    width: 55%;
+    height: 98%;
+}
+
+#telaSecundaria {
+    position: relative;
+    float: right;
+    display: inline;
+    margin-top: 6px;
+    width: 25%;
+    height: 98%;
+}
+
+#telaObjeto {
+    width: auto;
+    height: 85%;
+}
+
+#objeto {
+    padding-top: 10%;
 }

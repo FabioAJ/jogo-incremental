@@ -11,22 +11,18 @@ Objetivo: Fazer um jogo incremental com javascript,html e css.
 
   </head>
   <body>
-          <div align="center">
-              <h1>BolaGatoClicker</h1>
-              <img onclick="aumentoDePontos()" src="img/BolaDeLa.png" height="250px" width="300px">
-              <center><h2 id="demo">Pontos: 0</h2></center>
-          </div align="center">
-              <center><h2 id="cronom">Tempo: 0</h2></center>
-          <div align="left">
-              <button onclick="scrollUpgrades()">Ir para upgrades!</button>
-          </div>
-          <div align="left">
-              <button id="botao" onclick="scrollBolaDeLa()">Voltar!</button>
-          </div>
-          <div id="rodape" align="bottom">
-              <img id="esquerda" src="img/gato1.png">
-              <img id="centro" src="img/gato2.png">
-              <img id="direita" src="img/gato3.png">
-          </div>
+
+      <div id = "telaPrincipal">
+          <h1><center>BolaGatoClicker</center></h1>
+          <center><img onclick="aumentoDePontos()" src="img/BolaDeLa.png" id = "imgBola"><center>
+          <center><h1 id="demo">Pontos: 0</h1><center>
+      </div align="center">
+      <center><h1 id = "cronom">Tempo:0-0-0</h1></center>
+      <div id = "telaSecundaria">
+        <img src="img/gato1.png" id = "imgGatos">
+        <img src="img/gato2.png" id = "imgGatos">
+        <img src="img/gato3.png" id = "imgGatos">
+    </div>
+
   </body>
 <html>
