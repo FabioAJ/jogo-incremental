@@ -4,20 +4,20 @@ body {
 
 h1 {
   font-family: monospace;
-  color: 	white;
+  color: white;
   font-size: 50px;
 }
 
 h2 {
   font-family: monospace;
   color: white;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .imgGatos {
     margin: auto;
-    height: 170px;
-    width: 200px;
+    height: 120px;
+    width: 150px;
 }
 
 .borda {
@@ -25,10 +25,23 @@ h2 {
     border-style: solid;
 }
 
+.cronome {
+    padding-top: 90px;
+}
+
+
+#imgPersonagem {
+    margin: auto;
+    height: 170px;
+    width: 185px;
+    padding-top: 50px;
+}
+
 #imgBola {
     margin: auto;
-    height: 150px;
-    width: 150px;
+    height: 190px;
+    width: 205px;
+    padding-top: 50px;
 }
 
 #telaPrincipal {

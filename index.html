@@ -14,13 +14,20 @@ Objetivo: Fazer um jogo incremental com javascript,html e css.
               <center><h1 id="demo">Pontos: 0</h1></center>
               <center><img onclick="aumentoDePontos()" src = "img/BolaDeLa.png" id = "imgBola">
               <img src ="img/gatopersonagem.png" id = "imgPersonagem"></center>
-              <center><h1 id = "cronom">0:0:0</h1></center>
+              <center><h1 class="cronome" id="cronom">00:00</h1></center>
           </div>
       </div align="center">
       <div id = "telaSecundaria">
         <img src="img/gato11.png" id="imgGatos1" class="imgGatos">
+        <h2>20 pontos - 1 ponto / 20 segundos</h2>
         <img src="img/gato22.png" id="imgGatos2" class="imgGatos">
+        <h2>50 pontos - 1 ponto / 1 segundo</h2>
         <img src="img/gato33.png" id="imgGatos3" class="imgGatos">
+        <h2>70 pontos - 5 pontos / 10 segundos</h2>
     </div>
+    <audio id="fabio">
+        <source src="fabo.ogg" type="audio/ogg">
+        <source src="fabo.mp3" type="audio/mpeg">
+    </audio>
   </body>
 <html>
