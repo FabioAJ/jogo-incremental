@@ -1,5 +1,5 @@
 var pontos = 0;
-var segundos = 50;
+var segundos = 0;
 var minutos = 0;
 var melhorias = [false, false, false];
 
@@ -18,8 +18,8 @@ function aumentoDePontos() {
     setTimeout(function(){
         document.getElementById("imgPersonagem").src = "img\\gatopersonagem.png";
     }, 200);
-    var s = document.getElementById("fabio");
-    s.play(); 
+    var tocar = document.getElementById("musica");
+    tocar.play();
 }
 
 function cronometro() {
@@ -59,18 +59,18 @@ function melhoria3(){
 
 function verificacao(){
     if ((pontos >= 20) && (melhorias[0] === false)){
-            document.getElementById("imgGatos1").src = "img\\gato1.png";
-            melhorias[0] = true;
-            setInterval(melhoria1, 20000);
+        document.getElementById("imgGatos1").src = "img\\gato1.png";
+        melhorias[0] = true;
+        setInterval(melhoria1, 20000);
     }
     if ((pontos >= 50) && (melhorias[1] === false)){
-            document.getElementById("imgGatos2").src = "img\\gato2.png";
-            melhorias[1] = true;
-            setInterval(melhoria1, 1000);
+        document.getElementById("imgGatos2").src = "img\\gato2.png";
+        melhorias[1] = true;
+        setInterval(melhoria1, 1000);
     }
     if ((pontos >= 70) && (melhorias[2] === false)){
-            document.getElementById("imgGatos3").src = "img\\gato3.png";
-            melhorias[2] = true;
-            setInterval(melhoria3, 10000);
+        document.getElementById("imgGatos3").src = "img\\gato3.png";
+        melhorias[2] = true;
+        setInterval(melhoria3, 10000);
     }
 }

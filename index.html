@@ -4,30 +4,30 @@ Data: 16/10/2018
 Objetivo: Fazer um jogo incremental com javascript,html e css.
 -->
 <html>
-  <head>
-      <link rel="stylesheet" type="text/css" href="estilos.css"/>
-      <script type="text/javascript" src="script.js"></script>
-  </head>
-  <body onload="inicio();">
-      <div id = "telaPrincipal">
-          <div id = "telaObjeto">
-              <center><h1 id="demo">Pontos: 0</h1></center>
-              <center><img onclick="aumentoDePontos()" src = "img/BolaDeLa.png" id = "imgBola">
-              <img src ="img/gatopersonagem.png" id = "imgPersonagem"></center>
-              <center><h1 class="cronome" id="cronom">00:00</h1></center>
-          </div>
-      </div align="center">
-      <div id = "telaSecundaria">
-        <img src="img/gato11.png" id="imgGatos1" class="imgGatos">
-        <h2>20 pontos - 1 ponto / 20 segundos</h2>
-        <img src="img/gato22.png" id="imgGatos2" class="imgGatos">
-        <h2>50 pontos - 1 ponto / 1 segundo</h2>
-        <img src="img/gato33.png" id="imgGatos3" class="imgGatos">
-        <h2>70 pontos - 5 pontos / 10 segundos</h2>
-    </div>
-    <audio id="fabio">
-        <source src="fabo.ogg" type="audio/ogg">
-        <source src="fabo.mp3" type="audio/mpeg">
-    </audio>
-  </body>
+    <head>
+        <link rel="stylesheet" type="text/css" href="estilos.css"/>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body onload="inicio();">
+        <div id = "telaPrimaria">
+            <div id = "telaPersonagens">
+                <center><h1 id="demo">Pontos: 0</h1></center>
+                <center><img onclick="aumentoDePontos()" src = "img/BolaDeLa.png" id = "imgBola">
+                <img src ="img/gatopersonagem.png" id = "imgPersonagem"></center>
+                <center><h1 class="cronome" id="cronom">00:00</h1></center>
+            </div>
+        </div align="center">
+        <div id = "telaSecundaria">
+            <img src="img/gato11.png" id="imgGatos1" class="imgGatos">
+            <h2>20 pontos - 1 ponto / 20 segundos</h2>
+            <img src="img/gato22.png" id="imgGatos2" class="imgGatos">
+            <h2>50 pontos - 1 ponto / 1 segundo</h2>
+            <img src="img/gato33.png" id="imgGatos3" class="imgGatos">
+            <h2>70 pontos - 5 pontos / 10 segundos</h2>
+        </div>
+        <audio id="musica">
+            <source src="meow.ogg" type="audio/ogg">
+            <source src="meow.mp3" type="audio/mpeg">
+            </audio>
+        </body>
 <html>

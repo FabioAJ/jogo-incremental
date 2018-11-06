@@ -1,5 +1,6 @@
 body {
-  background-color: #7FFFD4;
+  background-image: url("img/papeldeparede.jpg");
+  background-size: cover;
 }
 
 h1 {
@@ -44,7 +45,7 @@ h2 {
     padding-top: 50px;
 }
 
-#telaPrincipal {
+#telaPrimaria {
     position: relative;
     float: left;
     display: inline;
@@ -63,12 +64,8 @@ h2 {
     height: 98%;
 }
 
-#telaObjeto {
+#telaPersonagens {
     width: auto;
     height: 85%;
     display: inline;
-}
-
-#objeto {
-    padding-top: 10%;
 }
